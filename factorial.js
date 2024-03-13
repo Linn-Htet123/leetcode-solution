@@ -7,7 +7,7 @@ const factorial = (n, memo = {}) => {
     memo[n] = n * factorial(n - 1, memo);
     return memo[n];
 };
-console.log(factorial(4));
-console.log(factorial(5));
-console.log(factorial(6));
-console.log(factorial(18));
+console.log(factorial(4)); //24
+console.log(factorial(5)); //120
+console.log(factorial(6)); //720
+console.log(factorial(18)); //6402373705728000
