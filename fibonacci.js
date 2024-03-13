@@ -9,5 +9,5 @@ function fib(n, memo = {}) {
     memo[n] = fib(n - 1, memo) + fib(n - 2, memo);
     return memo[n];
 }
-console.log(fib(90));
-console.log(fib(6));
+console.log(fib(90)); //2880067194370816000
+console.log(fib(6)); //8
